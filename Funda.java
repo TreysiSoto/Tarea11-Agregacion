@@ -1,28 +1,17 @@
 package Movil;
 
-public class Chip {
-    private String operador;
-    private int numero;
+public class Funda {
+    private String color;
 
-    public Chip(String operador, int numero) {
-        this.operador = operador;
-        this.numero = numero;
+    public Funda(String color) {
+        this.color = color;
     }
 
-    public String getOperador() {
-        return this.operador;
+    public String getColor() {
+        return this.color;
     }
 
-    public void setOperador(String operador) {
-        this.operador = operador;
+    public void setColor(String color) {
+        this.color = color;
     }
-
-    public int getNumero() {
-        return this.numero;
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
-
 }
