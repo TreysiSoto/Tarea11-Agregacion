@@ -1,12 +1,14 @@
 package Movil;
 
-public class Audifonos {
+public class Celular {
     private String marca;
-    private String color;
+    private int numImei;
+    private String modelo;
 
-    public Audifonos(String marca, String color) {
+    public Celular(String marca, int numImei, String modelo) {
         this.marca = marca;
-        this.color = color;
+        this.numImei = numImei;
+        this.modelo = modelo;
     }
 
     public String getMarca() {
@@ -17,12 +19,20 @@ public class Audifonos {
         this.marca = marca;
     }
 
-    public String getColor() {
-        return this.color;
+    public int getNumImei() {
+        return this.numImei;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setNumImei(int numImei) {
+        this.numImei = numImei;
+    }
+
+    public String getModelo() {
+        return this.modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
     }
 
 }
